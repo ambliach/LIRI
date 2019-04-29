@@ -1,10 +1,15 @@
+
+
 var request = require('request');
-var Spotify = require('node-spotify-api');
 require("dotenv").config()
 
 var input = process.argv.splice(2).join(" ");
 
-    
+// var spotify = new Spotify({
+//     id: <your spotify client id>,
+//   secret: <your spotify client secret>
+// });
+            
             
 function omdbThis(value){
     var queryUrl = "http://www.omdbapi.com/?t=" + value + "&y=&plot=short&apikey=" + process.env.OMDB_API;

@@ -1,12 +1,8 @@
 {
   "name": "LIRI",
   "version": "1.0.0",
-  "description": "",
+  "description": "So far I have successful used node to deploy OMDB but am not attempting to hide the API key in the .env file and it is not working, I am continuing to get this error. My next steps are to add the keys for spotify to .env and get that up and running.",
   "main": "app.js",
-  "dependencies": {
-    "dotenv": "^7.0.0"
-  },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/ambliach/LIRI/issues"
   },
-  "homepage": "https://github.com/ambliach/LIRI#readme"
+  "homepage": "https://github.com/ambliach/LIRI#readme",
+  "dependencies": {
+    "dotenv": "^7.0.0"
+  }
 }
