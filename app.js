@@ -21,9 +21,12 @@ function omdbThis(value){
         var data = JSON.parse(body)
         console.log(data.Title)
         console.log(data.Year)
-        console.log(data.Rated)
+        console.log(data.Ratings)
+        console.log(data.Country)
+        console.log(data.Actors)
+        console.log(data.Plot)
+        console.log(data.Language)
     })
 }
 
 omdbThis(input);
-
