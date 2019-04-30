@@ -27,4 +27,3 @@ function omdbThis(value){
 
 omdbThis(input);
 
-console.log(process.env)

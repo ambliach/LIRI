@@ -7,3 +7,5 @@ will attempt later, too frustrated right now.
 
 ALso i cannot figure out how the hell to add the screenshots to this readme.md file
 
+
+Have made improvements, i was missing an instillation but it is now functioning better
