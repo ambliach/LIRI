@@ -1,11 +1,5 @@
 # LIRI
 
-So far I have successful used node to deploy OMDB but am not attempting to hide the API key in the .env file and it is not working, I am continuing to get this error. My next steps are to add the keys for spotify to .env and get that up and running. 
+I successfully connected OMDB, concert this and spotify do not work and i have no idea how to fix it!
+i tried my best on this assignment. 
 
-will attempt later, too frustrated right now.
-
-
-ALso i cannot figure out how the hell to add the screenshots to this readme.md file
-
-
-Have made improvements, i was missing an instillation but it is now functioning better
