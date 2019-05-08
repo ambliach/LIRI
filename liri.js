@@ -61,8 +61,8 @@ function concertThis(){
 
 function spotifyThis() {
   var song = input
-  console.log(song)
-  spotify.search({ type: "track", query: song })
+  
+ spotify.search({ type: "track", query: song })
   .then(function (response) {
       console.log(response.tracks.items)
       console.log(response.tracks.preview_url);
